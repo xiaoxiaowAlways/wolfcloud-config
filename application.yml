@@ -1,0 +1,16 @@
+spring:
+  profils:
+    active:
+      - dev
+
+---
+spring:
+  profils: dev
+  application:
+    name: wolfcloud-config-dev
+
+---
+spring:
+  profils: test
+  application:
+    name: wolfcloud-config-test
